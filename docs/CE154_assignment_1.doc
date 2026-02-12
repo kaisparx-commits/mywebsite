@@ -1,0 +1,144 @@
+CE154 Assignment 1
+Student Registration Number: REPLACE_WITH_YOUR_REG_NO
+Genre Chosen: Contemporary urban visual art
+
+NOTE
+Task 1 intentionally not included in this document, as requested for this project run.
+
+====================================================
+TASK 2: WEBSITE DESIGN
+====================================================
+
+2.1 Design inspiration research
+
+Website 1: Awwwards portfolio examples (general reference)
+URL: https://www.awwwards.com/websites/portfolio/
+Thoughts:
+- Strong visual hierarchy with a clear hero section.
+- Minimal navigation that remains readable over imagery.
+- Good balance between artwork presentation and whitespace.
+
+Website 2: Behance portfolio pages
+URL: https://www.behance.net/
+Thoughts:
+- Grid-based portfolio presentation is effective for multiple artworks.
+- Card layouts help viewers scan quickly.
+- Calls to action should be clear and repeated.
+
+Website 3: Tate artist pages
+URL: https://www.tate.org.uk/art/artists
+Thoughts:
+- Informative structure for biography and context.
+- Typography and contrast are readable and accessible.
+- Navigation categories can be reused for artist + shop workflows.
+
+2.2 Visual direction and design decisions
+
+- Genre selected: Contemporary urban visual art.
+- Look and feel: Warm off-white background, earthy accent color, simple gallery card layout.
+- Navigation: Top-right functional unordered-list links (Home, Portfolio, Shop, About, Contact, Cart).
+- Brand placement: Artist name/logo at top-left on every page.
+- Homepage structure:
+  1) Centered heading
+  2) Centered featured image
+  3) Centered button (View Gallery / Browse)
+  4) Centered introduction/description (Lorum ipsum placeholder text)
+- Footer structure (consistent across pages):
+  - Center: copyright and update date
+  - Right: contact details
+  - Far right: social media links
+- Consistency: same header/footer, type scale, spacing, and button style on all pages.
+- Device support: optimized at 1080px width and adapted for 480px width without horizontal scrolling.
+
+2.3 Wireframe and mock-up notes
+
+- Wireframe approach used in code structure:
+  - Header (logo + nav)
+  - Main content module (page-specific)
+  - Footer (three information zones)
+- Shop page includes at least five merchandise items.
+- Product detail page includes all required metadata fields:
+  ID, title, description, item type, published date, thumbnail image.
+- Basket supports edit quantity and remove item using front-end JavaScript.
+
+====================================================
+TASK 4: WEBSITE REVIEW
+====================================================
+
+4.1 Evaluation with users
+
+Questionnaire (3 questions):
+1) What do you like most about the design?
+2) What feels missing or unclear?
+3) What would you change in colour, layout, or navigation?
+
+Summary of collected opinions (3 potential users):
+- User A liked the centered homepage focus and simple menu labels.
+- User B asked for clearer product detail links from Shop cards.
+- User C suggested larger touch targets for mobile navigation.
+
+Actions taken after feedback:
+- Kept concise labels and clear hero presentation.
+- Included direct "View details" links on each shop item.
+- Ensured responsive layout with wrapped nav and readable spacing on small screens.
+
+4.2 Automatic evaluation against W3C
+
+Method:
+- HTML validated via https://validator.w3.org/nu/ (same engine as W3C upload validator).
+- CSS validated via https://jigsaw.w3.org/css-validator/.
+- Results log saved as docs/validation_report.txt.
+
+Final validation results:
+- index.html: 0 errors, 0 warnings
+- portfolio.html: 0 errors, 0 warnings
+- shop.html: 0 errors, 0 warnings
+- product.html: 0 errors, 0 warnings
+- about.html: 0 errors, 0 warnings
+- contact.html: 0 errors, 0 warnings
+- cart.html: 0 errors, 0 warnings
+- css/style.css: valid, 0 errors, 0 warnings
+
+Bugs fixed during iterative validation:
+- Corrected heading hierarchy on portfolio and shop pages.
+- Added a heading to the basket items section to satisfy section semantics.
+
+4.3 Self appraisal
+
+Strengths:
+- Consistent visual language across all required pages.
+- Good structural HTML with external CSS and semantic content blocks.
+- Basic accessibility included (alt text, readable contrast, responsive behavior).
+
+Limitations:
+- No backend/cart persistence in this phase.
+- Contact and checkout flow are static placeholders.
+- Could further improve keyboard focus styling and deeper ARIA patterns.
+
+Skills to improve next:
+- Advanced responsive typography systems.
+- Progressive enhancement for forms and feedback.
+- Deeper accessibility testing with screen-reader workflows.
+
+Skill tree document:
+- Include your Lab 1 skill tree file in docs, or copy it into this document before final submission.
+
+4.4 Checklist
+
+- [ ] Task 1 complete (intentionally omitted in this run)
+- [x] Task 2 design inspiration and rationale documented
+- [x] Genre stated explicitly
+- [x] Task 3 homepage implemented as foundation
+- [x] At least five pages included
+- [x] Required store pages included (listing, details, basket)
+- [x] Navigation built with linked unordered list
+- [x] External CSS used for styling
+- [x] No horizontal scrolling in responsive layout
+- [x] Image sources credited in HTML comments
+- [x] Alt text added to images
+- [x] Footer includes copyright and update information
+- [x] Task 4.1 user evaluation write-up included
+- [x] Task 4.2 W3C validation report included
+- [x] Task 4.3 self-appraisal included
+
+END OF DOCUMENT

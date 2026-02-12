@@ -1,0 +1,9 @@
+index.html: errors=0, warnings=0
+portfolio.html: errors=0, warnings=0
+shop.html: errors=0, warnings=0
+product.html: errors=0, warnings=0
+about.html: errors=0, warnings=0
+contact.html: errors=0, warnings=0
+cart.html: errors=0, warnings=0
+
+style.css: validity=True, errors=0, warnings=0
