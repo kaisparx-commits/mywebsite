@@ -342,7 +342,7 @@ main {
 }
 
 .product-image-wrap {
-  width: min(100%, 500px);
+  width: 100%;
   justify-self: start;
 }
 
@@ -546,4 +546,8 @@ input[type="number"] {
     margin-left: 0;
     margin-right: 0.6rem;
   }
+
+  .product-image-wrap img {
+  width: 100%;
+}
 }
