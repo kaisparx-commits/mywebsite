@@ -1,5 +1,5 @@
 ﻿// Registration - SPARK35605 //
-/* Renders cart from localStorage and supports edit/remove actions. */
+/* draws list of items, calculates totals and changes quantities */
 (function () {
   var cartTable = document.querySelector('.cart-table');
   if (!cartTable || !window.Store) {

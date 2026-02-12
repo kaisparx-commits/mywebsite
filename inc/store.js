@@ -1,14 +1,14 @@
 // Registration - SPARK35605 //
-/* Shared store helpers for localStorage cart handling. */
+/* helper functions to save update, manage cart items */
 (function (window) {
   var STORAGE_KEY = 'business_name_cart_v1';
 
   var products = {
     'ART-1001': { id: 'ART-1001', title: 'Nocturne Print', price: 49.0, image: 'images/product-1.jpg' },
     'MER-2020': { id: 'MER-2020', title: 'Studio Mug', price: 18.0, image: 'images/product-2.jpg' },
-    'MER-2030': { id: 'MER-2030', title: 'Signal Tee', price: 26.0, image: 'images/product-3.jpg' },
+    'MER-2030': { id: 'MER-2030', title: 'T-Shirt', price: 26.0, image: 'images/product-3.jpg' },
     'MER-2040': { id: 'MER-2040', title: 'Postcard Set', price: 15.0, image: 'images/product-4.jpg' },
-    'MER-2050': { id: 'MER-2050', title: 'Archive Tote', price: 22.0, image: 'images/product-5.jpg' }
+    'MER-2050': { id: 'MER-2050', title: 'Tote Bag', price: 22.0, image: 'images/product-5.jpg' }
   };
 
   function readCart() {
