@@ -1,3 +1,4 @@
+// Registration - SPARK35605 //
 /* Shared store helpers for localStorage cart handling. */
 (function (window) {
   var STORAGE_KEY = 'business_name_cart_v1';

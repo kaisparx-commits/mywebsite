@@ -1,4 +1,5 @@
-﻿/* Renders cart from localStorage and supports edit/remove actions. */
+﻿// Registration - SPARK35605 //
+/* Renders cart from localStorage and supports edit/remove actions. */
 (function () {
   var cartTable = document.querySelector('.cart-table');
   if (!cartTable || !window.Store) {

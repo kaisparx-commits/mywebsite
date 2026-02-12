@@ -1,4 +1,4 @@
-/* Registration Number: REPLACE_WITH_YOUR_REG_NO */
+// Registration - SPARK35605 //
 /* Product page actions: Add to Cart and Buy Now. */
 (function () {
   var detailSection = document.querySelector('.product-details[data-product-id]');
