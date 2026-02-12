@@ -1,11 +1,12 @@
+/* Registration Number: REPLACE_WITH_YOUR_REG_NO */
 /* Product page actions: Add to Cart and Buy Now. */
 (function () {
-  var detailSection = document.querySelector('.product-details[productid]');
+  var detailSection = document.querySelector('.product-details[data-product-id]');
   if (!detailSection || !window.Store) {
     return;
   }
 
-  var productId = detailSection.getAttribute('productid');
+  var productId = detailSection.getAttribute('data-product-id');
   if (!productId || !window.Store.products[productId]) {
     return;
   }
