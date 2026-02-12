@@ -1,5 +1,4 @@
-﻿/* Registration Number: REPLACE_WITH_YOUR_REG_NO */
-/* Updates the cart quantity badge in the main navigation. */
+﻿/* Updates the cart quantity badge in the main navigation. */
 (function () {
   var BADGE_SELECTOR = '.nav-cart-count';
   var STORAGE_KEY = 'business_name_cart_v1';

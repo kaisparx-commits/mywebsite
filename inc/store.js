@@ -1,4 +1,3 @@
-/* Registration Number: REPLACE_WITH_YOUR_REG_NO */
 /* Shared store helpers for localStorage cart handling. */
 (function (window) {
   var STORAGE_KEY = 'business_name_cart_v1';

@@ -1,5 +1,4 @@
-﻿/* Registration Number: REPLACE_WITH_YOUR_REG_NO */
-/* Renders cart from localStorage and supports edit/remove actions. */
+﻿/* Renders cart from localStorage and supports edit/remove actions. */
 (function () {
   var cartTable = document.querySelector('.cart-table');
   if (!cartTable || !window.Store) {

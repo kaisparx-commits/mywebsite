@@ -1,4 +1,3 @@
-/* Registration Number: REPLACE_WITH_YOUR_REG_NO */
 /* Product page actions: Add to Cart and Buy Now. */
 (function () {
   var detailSection = document.querySelector('.product-details[productid]');
