@@ -6,7 +6,7 @@
     return;
   }
 
-  var productId = detailSection.getAttribute('data-product-id');
+  var productId = detailSection.getAttribute('data-productid');
   if (!productId || !window.Store.products[productId]) {
     return;
   }

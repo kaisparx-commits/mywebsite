@@ -60,7 +60,7 @@
       return;
     }
 
-    var data-productid = row.getAttribute('data-id');
+    var productId = row.getAttribute('data-id');
     var qty = Number(event.target.value);
 
     if (!Number.isFinite(qty) || qty < 1) {
@@ -68,7 +68,7 @@
       event.target.value = '1';
     }
 
-    window.Store.updateQuantity(data-productid, qty);
+    window.Store.updateQuantity(productId, qty);
     renderRows();
   });
 
