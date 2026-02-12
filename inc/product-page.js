@@ -1,5 +1,5 @@
 // Registration - SPARK35605 //
-/* Product page actions: Add to Cart and Buy Now. */
+/* add to cart and buy now functions for product page */
 (function () {
   var detailSection = document.querySelector('.product-details[data-productid]');
   if (!detailSection || !window.Store) {

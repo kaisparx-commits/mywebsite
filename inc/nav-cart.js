@@ -1,5 +1,5 @@
 ﻿// Registration - SPARK35605 //
-/* Updates the cart quantity badge in the main navigation. */
+/* updates cart icon quantity */
 (function () {
   var BADGE_SELECTOR = '.nav-cart-count';
   var STORAGE_KEY = 'business_name_cart_v1';
