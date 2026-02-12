@@ -48,7 +48,7 @@ a {
   margin: 0 auto;
 }
 
-/* Header: mylogo left, nav right */
+/* mylogo left, menu right */
 .top-navigation {
   border-bottom: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.95);
@@ -155,7 +155,7 @@ main {
   flex: 1;
 }
 
-/* Homepage center layout */
+/* centered text, made it black, made paragraph text greyish to fit colour scheme */
 .hero {
   width: min(100% - 2rem, 760px);
   margin: 2.5rem auto;
@@ -164,7 +164,7 @@ main {
 
 .hero h1 {
   margin: 0 0 0.8rem;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2rem, 4vw, 3rem); /* used clamp to make the font size fluid between devices */
   letter-spacing: 0.03em;
 }
 
@@ -180,6 +180,7 @@ main {
   overflow: hidden;
 }
 
+/* button for going to portfolio, added black highlight */
 .button-link {
   display: inline-block;
   margin: 0.3rem auto 0.9rem;
@@ -325,7 +326,7 @@ main {
   margin-top: auto;
 }
 
-/* Match active navigation button style */
+/* using the active menu style with black and white borders to match theme */
 .shop-grid .card-action .button-link,
 .shop-grid .card-action .button-link:hover,
 .shop-grid .card-action .button-link:focus-visible {
@@ -453,7 +454,7 @@ input[type="number"] {
   font-weight: 700;
 }
 
-/* Footer: centered copyright, right contact, far right social */
+/* footer css, centered copyright, right contact, far right social media section */
 .site-footer {
   border-top: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.96);

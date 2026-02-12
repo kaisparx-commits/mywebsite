@@ -10,7 +10,7 @@
   var emptyState = document.getElementById('cart-empty');
 
   function formatMoney(value) {
-    return '\u00A3' + Number(value).toFixed(2);
+    return '£' + Number(value).toFixed(2);
   }
 
   function renderRows() {
@@ -19,7 +19,7 @@
 
     if (!items.length) {
       emptyState.hidden = false;
-      totalNode.textContent = '\u00A30.00';
+      totalNode.textContent = '£0.00';
       return;
     }
 
@@ -49,7 +49,7 @@
     totalNode.textContent = formatMoney(total);
   }
 
-  tbody.addEventListener('input', function (event) {
+  tbody.addEventListener('input', function (event) { // FIXME it loses focus after i type one number, meaning if someone wants to order some specific amount they have to keep clicking inside in the box
     if (!event.target.matches('input[type="number"]')) {
       return;
     }
@@ -87,6 +87,4 @@
 
   renderRows();
 })();
-
-
 
