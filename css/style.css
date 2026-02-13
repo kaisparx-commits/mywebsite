@@ -102,7 +102,7 @@ a {
   position: relative;
 }
 
-/* CSS for the cart system and also the cart count */
+/* CSS for the cart system  */
 .nav-cart-icon {
   width: 18px;
   height: 18px;
@@ -110,23 +110,7 @@ a {
   vertical-align: middle;
 }
 
-.nav-cart-count {
-  position: absolute;
-  top: -6px;
-  right: -8px;
-  min-width: 18px;
-  height: 18px;
-  padding: 0 4px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.7rem;
-  font-weight: 700;
-  line-height: 1;
-  color: #fff;
-  background: #000;
-  border: 1px solid #000;
-}
+
 
 /* Geometric sans for my headings across pages */
 main h1,
