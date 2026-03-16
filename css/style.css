@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap");
 
 /*
-  This is to keep the colour scheme consistent, a sleek black and white style, I used Karla and Geometric Sans because to me they looked perfect for a minimilistic portfolio.
+  :root keeps everything together. defines the variables, this is to keep the colour scheme consistent, a sleek black and white style, I used Karla and Geometric Sans because to me they looked perfect for a minimilistic portfolio.
 */
 :root {
   --bg: #f4f4f4;
@@ -17,6 +17,8 @@
 * {
   box-sizing: border-box;
 }
+
+/* Setting global font and background, gradient makes the background look very minimalistic and detailed */
 
 html,
 body {
@@ -37,6 +39,7 @@ a {
   color: inherit;
 }
 
+/* pushes footer to bottom if no content */
 .website-wrapper {
   min-height: 100vh;
   display: flex;
@@ -48,7 +51,7 @@ a {
   margin: 0 auto;
 }
 
-/* mylogo left, menu right */
+/* mylogo left, menu right, seethrough effect for the nav bar. (!!reminder!! might make sticky to showcase effect more, experimentation needed) */
 .top-navigation {
   border-bottom: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.95);
@@ -490,6 +493,7 @@ input[type="number"] {
   fill: currentColor;
 }
 
+/* optimisations for mobile usage*/
 @media (max-width: 700px) {
   .nav-content {
     flex-direction: column;
